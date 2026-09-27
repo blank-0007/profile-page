@@ -4,56 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <center>
-      <table width="700" border="0" cellpadding="20" cellspacing="0">
-        <tr>
-          <td align="center">
-            <h1>My Profile</h1>
+    <main class="profile-card">
+      <header class="profile-header">
+        <img src="self.jpeg" alt="Profile photo" class="profile-photo" />
+        <h1>Kaushal Dhaked</h1>
+      </header>
 
-            <img src="self.jpeg" alt="Profile photo" width="200" />
+      <section class="profile-details">
+        <p><strong>Age:</strong> 18</p>
+        <p><strong>City:</strong> Jaipur</p>
+        <p><strong>Email:</strong> blank@example.com</p>
+      </section>
 
-            <h2>Kaushal Dhaked</h2>
-            <p><strong>Age:</strong> 18</p>
-            <p><strong>City:</strong> Jaipur</p>
-            <p><strong>Email:</strong> blank@example.com</p>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          I am a student and web developer who enjoys learning new technologies,
+          building creative projects, and solving problems through coding.
+        </p>
+      </section>
 
-            <h3>About Me</h3>
-            <p>
-              I am a student and web developer who enjoys learning new technologies,
-              building creative projects, and solving problems through coding.
-            </p>
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+        </ul>
+      </section>
 
-            <h3>Skills</h3>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>python</li>
-            </ul>
+      <section>
+        <h2>Hobbies</h2>
+        <ol>
+          <li>Reading</li>
+          <li>Traveling</li>
+          <li>Photography</li>
+        </ol>
+      </section>
 
-            <h3>Hobbies</h3>
-            <ol>
-              <li>Reading</li>
-              <li>Traveling</li>
-              <li>Photography</li>
-            </ol>
+      <section>
+        <h2>Achievements</h2>
+        <ul>
+          <li>Completed a Python course with multiple projects using NumPy, Pandas, and Matplotlib.</li>
+          <li>Built multiple mini projects using HTML, CSS, and JavaScript.</li>
+          <li>Won a school-level coding and design competition.</li>
+          <li>Consistently improved my skills through online learning and practice.</li>
+        </ul>
+      </section>
 
-            <h3>Achievements</h3>
-            <ul>
-              <li>Completed a python course with multiple projects using numpy, pandas, and matplotlib library.</li>
-              <li>Built multiple mini projects using HTML, CSS, and JavaScript.</li>
-              <li>Won a school-level coding and design competition.</li>
-              <li>Consistently improved my skills through online learning and practice.</li>
-            </ul>
-
-            <hr />
-
-            <p><u>Contact:</u> +123 456 7890</p>
-          </td>
-        </tr>
-      </table>
-    </center>
+      <footer class="profile-footer">
+        <p><u>Contact:</u> +123 456 7890</p>
+      </footer>
+    </main>
   </body>
 </html>
